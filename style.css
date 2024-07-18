@@ -1,0 +1,26 @@
+table ,th, td {
+    border: 1px solid;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,td {
+    padding: 10px;
+    height: 75px;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: separate;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    line-height: 15px;
+    font-style: oblique;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(structure.png);
+}
