@@ -36,12 +36,13 @@
 
 /* profile picture */
 #profile {
-    width: 180px;
+    object-fit: cover;
+    height: 190px;
+    width: 190px;
     border-radius: 100%;
     border: 1px solid rgb(184, 224, 195);
     display: block;
     margin: auto;
-    height: 50%;
 }
 /* Media queries */
 /* For mobile phones: */
