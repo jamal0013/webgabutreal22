@@ -43,6 +43,7 @@
     border: 1px solid rgb(184, 224, 195);
     display: block;
     margin: auto;
+    margin-top: -30px;
 }
 /* Media queries */
 /* For mobile phones: */
