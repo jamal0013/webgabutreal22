@@ -36,7 +36,7 @@
 
 /* profile picture */
 #profile {
-    width: 50%;
+    width: 180px;
     border-radius: 100%;
     border: 1px solid rgb(184, 224, 195);
     display: block;
