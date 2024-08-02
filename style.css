@@ -1,56 +1,54 @@
-@media only screen and (max-width: 768px) {
-
-
-
-
-/* font install */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
-
-/* font install */
-/* nama */
-#nama {
-    font-family: "Quicksand", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-top: 20px;
-
+body {
+    background-color: aqua;
+    background-image: url(gradient\ x.png);
+    background-repeat: repeat-x;
+    background-position: top;
 }
-
-/* Sampul */
-#navbar {
-    border: 1px solid rgb(184, 224, 195);
-    width: 95%;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+#ngising {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px black;
+    margin-left: 170px;
 }
-#navbar1 {
+#Table,th,tr,td {
     border: 1px solid;
-    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* profile picture */
-#profile {
-    object-fit: cover;
-    height: 190px;
-    width: 190px;
-    border-radius: 100%;
-    border: 1px solid rgb(184, 224, 195);
-    display: block;
-    margin: auto;
-    margin-top: -30px;
+th,td {
+    padding: 25px;
+    text-align: center;
 }
-/* Media queries */
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
-  
-  
+table {
+    border-spacing: 1px;
+    width: 1000px;
+    
+}
 
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    #Table,th,tr,td {
+        border: 1px solid;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    
+    th,td {
+        padding: 0px;
+        text-align: center;
+        
+    }
+    table {
+        border-spacing: 1px;
+        width: 99%;
+        height: 600px;
+        size: 1px;
+    }
 }
