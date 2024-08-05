@@ -52,9 +52,22 @@ table {
         size: 1px;
     }
     #ngising {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-decoration: underline;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 2px 2px black;
+        margin-left:0;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #ngising {
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #ngising {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    #ngising {
+        font-size: 30px;
+    }
 }
