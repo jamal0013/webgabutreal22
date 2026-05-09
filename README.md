@@ -1,2 +1,0 @@
-# webgabutreal22
-gabutok
